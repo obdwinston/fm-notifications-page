@@ -116,6 +116,7 @@ body {
 
 .message {
   margin-bottom: 5px;
+  color: var(--dark-grayish-blue);
 }
 
 .reply {
