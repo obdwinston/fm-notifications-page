@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Notifications page</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header-group">
+          <h2>Notifications</h2>
+          <p>3</p>
+        </div>
+        <p>Mark all as read</p>
+      </div>
+
+      <div class="card unread">
+        <img class="avatar" src="assets/images/avatar-mark-webber.webp" />
+        <div class="card-group">
+          <div class="message">
+            <strong class="user">Mark Webber</strong>
+            reacted to your recent post
+            <strong class="post">My first tournament today!</strong>
+            <div class="dot"></div>
+          </div>
+          <p class="sent">1m ago</p>
+        </div>
+      </div>
+
+      <div class="card unread">
+        <img class="avatar" src="assets/images/avatar-angela-gray.webp" />
+        <div class="card-group">
+          <div class="message">
+            <strong class="user">Angela Gray</strong>
+            followed you
+            <div class="dot"></div>
+          </div>
+          <p class="sent">5m ago</p>
+        </div>
+      </div>
+
+      <div class="card unread">
+        <img class="avatar" src="assets/images/avatar-jacob-thompson.webp" />
+        <div class="card-group">
+          <div class="message">
+            <strong class="user">Jacob Thompson</strong>
+            has joined your group
+            <strong class="group">Chess Club</strong>
+            <div class="dot"></div>
+          </div>
+          <p class="sent">1 day ago</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="avatar" src="assets/images/avatar-rizky-hasanuddin.webp" />
+        <div class="card-group">
+          <div class="message">
+            <strong class="user">Rizky Hasanuddin</strong>
+            has joined your group
+            <strong class="group">Chess Club</strong>
+          </div>
+          <p class="sent">1 day ago</p>
+          <textarea class="reply" name="reply" id="reply" rows="3">
+Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</textarea
+          >
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="avatar" src="assets/images/avatar-kimberly-smith.webp" />
+        <div class="card-group">
+          <div class="picture-group">
+            <div class="message-group">
+              <div class="message">
+                <strong class="user">Kimberly Smith</strong>
+                commented on your picture
+              </div>
+              <p class="sent">1 week ago</p>
+            </div>
+            <img class="picture" src="assets/images/image-chess.webp" />
+          </div>
+          <!-- <textarea class="reply" name="reply" id="reply" rows="3"></textarea> -->
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="avatar" src="assets/images/avatar-nathan-peterson.webp" />
+        <div class="card-group">
+          <div class="message">
+            <strong class="user">Nathan Peterson</strong>
+            reacted to your recent post
+            <strong class="post"
+              >5 end-game strategies to increase your win rate</strong
+            >
+          </div>
+          <p class="sent">2 weeks ago</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="avatar" src="assets/images/avatar-anna-kim.webp" />
+        <div class="card-group">
+          <div class="message">
+            <strong class="user">Anna Kim</strong>
+            left the group
+            <strong class="group">Chess Club</strong>
+          </div>
+          <p class="sent">2 weeks ago</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
